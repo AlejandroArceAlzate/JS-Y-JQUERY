@@ -42,7 +42,7 @@
     		$contar.on("click", contarVocales);
     		function contarVocales()
     		{
-    			var frase = $frase.val(),
+    			var frase = $frase.val().toLowerCase(),
     				res ={a:0, e:0, i:0,o:0,u:0},
     				letra;
 
